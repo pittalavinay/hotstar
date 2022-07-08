@@ -1,0 +1,156 @@
+body,html{
+  background-color:rgb(1, 11, 24)
+}
+.head
+{
+background-color:rgb(1, 11, 24);
+width:100%;
+height:70px;
+box-shadow: 2px 2px 2px;
+position:sticky;
+}
+.di
+{
+  color:white;
+  text-decoration: none;
+}
+.ullist
+{
+  display:flex;
+justify-content:space-evenly;
+  list-style: none;
+  margin-top: 20px;
+  margin-right:20px;
+  margin-bottom: -90px;
+}
+.kids
+{
+  color:yellow;
+  margin-right: 360px;
+}
+.search
+{
+  border-color:rgb(1, 11, 24); ;
+  background-color:rgb(1, 11, 24);
+  border-width: none;
+  margin-right: 200px;
+  width:200px;
+}
+.new
+{
+  
+  border-radius: 100px;
+}
+.tv:hover .dropdown
+{
+  color:red;
+}
+.dropdown
+{
+  display:block;
+}
+#li
+{
+  margin-right: -9px;
+}
+#sp
+{
+  margin-right:-5px;
+}
+#ds
+{
+  margin-right:10px;
+}
+.continue
+{
+  background-color:rgb(1, 11, 24);
+  color:white;
+}
+#b
+{
+  
+  margin-left: 50px;
+  font-size: 23px;
+}
+.extra
+{
+  background-color:rgb(1, 11, 24);
+  height:20px;
+}
+.ca
+{
+  display:flex;
+  background-color:rgb(1, 11, 24);
+}
+.im
+{
+width:300px;
+height:150px;
+border-radius:20px;
+background-color:rgb(1, 11, 24);
+}
+div.ul.ullist{
+  justify-content: space-around;
+}
+.im:hover
+{
+  height:200px;
+  width:350px;
+}
+.ima
+{
+width:300px;
+height:150px;
+border-radius:20px;
+background-color:rgb(1, 11, 24);
+margin-left:30px;
+}
+.imag
+{
+width:300px;
+height:150px;
+border-radius:20px;
+background-color:rgb(1, 11, 24);
+margin-left:30px;
+}
+.ima:hover
+{
+  height:200px;
+  width:350px;
+}
+.imag:hover
+{
+  height:200px;
+  width:350px;
+}
+.image
+{
+width:300px;
+height:150px;
+border-radius:20px;
+background-color:rgb(1, 11, 24);
+margin-left:30px;
+}
+.image:hover
+{
+  height:200px;
+  width:350px;
+}
+.drop
+{
+  display: block;
+  position:absolute;
+}
+.drop li{
+  list-style: none;
+  display: none;
+}
+.di li:hover >.drop li{
+  background-color:rgb(1, 11, 24);
+  color:white;
+  display: block;
+  margin-right: 100px;
+}
+.drop li:hover{
+  background-color: black;
+}
