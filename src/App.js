@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 const App = () => {
   return (
 <div>
-<header class="head">
+<nav class="head">
 <div class="di"><ul class="ullist"><li>Diseny+hotstar</li>
 <li class="tv">Tv
 <ul class="drop">
@@ -15,40 +15,41 @@ const App = () => {
 <li id="li">Movies</li>
 <li id="sp">Sports</li>
 <li id="ds">Diseny+</li>
-<li class="kids"><b>KIDS</b></li>
-<li><input type="text" placeholder="Search" class="search"></input></li></ul>
-</div>
-</header>
-<div class="new"><div id="demo" class="carousel slide" data-bs-ride="carousel">
+<li class="kids"><b>KIDS</b></li></ul>
+<input type="text" placeholder="Search" class="search"></input>
+<button type="button" className="button">UPGRADE</button></div>
+</nav>
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
 
-
-<div class="carousel-indicators">
-  <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
-  <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
-  <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
-</div>
-
-
-<div class="carousel-inner">
-  <div class="carousel-item active">
-    <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/9473/1249473-h-b82330364ddc" height="400px" width="900px" alt="Los Angeles" class="d-block w-100"/>
+ 
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
   </div>
-  <div class="carousel-item">
-    <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/9473/1249473-h-b82330364ddc" alt="Chicago" class="d-block w-100"/>
-  </div>
-  <div class="carousel-item">
-    <img src="ny.jpg" alt="New York" class="d-block w-100"/>
-  </div>
-</div>
 
-<button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
-  <span class="carousel-control-prev-icon"></span>
-</button>
-<button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
-  <span class="carousel-control-next-icon"></span>
-</button>
+ 
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://pbs.twimg.com/profile_images/1513422368357912577/6FgmBymm_400x400.jpg" alt="Los Angeles" class="d-block w-100" height="400px" width="400px"/>
+    </div>
+    <div class="carousel-item">
+      <img src="https://i.ytimg.com/vi/KMFRCwJVEHY/maxresdefault.jpg" alt="Chicago" class="d-block w-100" height="400px" width="400px"/>
+    </div>
+    <div class="carousel-item">
+      <img src="https://static.toiimg.com/photo/msid-90725677/90725677.jpg" alt="New York" class="d-block w-100" height="400px" width="400px"/>
+    </div>
+  </div>
+
+ 
+  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
 </div>
-</div><div class="extra"></div>
+<div class="extra"></div>
 <div class="continue"><b id="b">Continue Watching</b></div>
 <div >
   <div>
